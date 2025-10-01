@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "syncsystemtime",
+  "version": "${version}",
+  "name": "Sync System Time",
+  "description": "New gamerule to sync in game time with system time!",
+  "authors": ["Rafii2198"],
+  "contact": {
+    "homepage": "https://modrinth.com/project/sync-system-time",
+    "sources": "https://github.com/Rafii2198/SyncSystemTime",
+    "issues": "https://github.com/Rafii2198/SyncSystemTime/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/syncsystemtime/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "top.rafii2198.syncsystemtime.Syncsystemtime"
+    ]
+  },
+  "mixins": [
+    "syncsystemtime.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

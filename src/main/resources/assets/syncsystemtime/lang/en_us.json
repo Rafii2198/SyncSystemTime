@@ -1,0 +1,9 @@
+{
+  "gamerule.category.syncsystemtime.time_sync": "Time Sync",
+  "gamerule.gameTimeOffset": "Game Time Offset",
+  "gamerule.gameTimeOffset.description": "When syncing time, this value represents in game tick offset",
+  "gamerule.syncSystemTime": "Sync System Time",
+  "gamerule.syncSystemTime.description": "Whether the in game time should be reflect system time",
+  "gamerule.systemTimeOffset": "System Time Offset",
+  "gamerule.systemTimeOffset.description": "When syncing time, this value represents real life seconds to offset"
+}

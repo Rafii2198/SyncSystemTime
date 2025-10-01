@@ -1,0 +1,17 @@
+{
+  "compatibilityLevel": "JAVA_21",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8",
+  "mixins": [
+    "MinecraftServerMixin",
+    "PlayerListMixin",
+    "ServerLevelMixin"
+  ],
+  "overwrites": {
+    "requireAnnotations": true
+  },
+  "package": "top.rafii2198.syncsystemtime.mixin",
+  "required": true
+}
